@@ -287,7 +287,7 @@ class @AutoComplete
     offset = getCaretCoordinates(@element, @element.selectionStart)
 
     pos = {
-      left: position.left + offset.left
+      left: position.left + 0*offset.left
     }
 
     # Position menu from top (above) or from bottom of caret (below, default)
