@@ -294,7 +294,7 @@ class @AutoComplete
     if @position is "top"
       pos.bottom = @$element.offsetParent().height() - position.top - offset.top
     else
-      pos.top = position.top + offset.top + parseInt(@$element.css('font-size'))
+      pos.top = position.top + offset.top + parseInt(@$element.height())
 
     @tmplInst.$(".-autocomplete-container").css(pos)
 
