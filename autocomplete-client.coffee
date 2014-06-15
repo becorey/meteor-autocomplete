@@ -184,7 +184,7 @@ class @AutoComplete
     # TODO this is a bit of a hack; see if we can't be smarter
     Meteor.setTimeout =>
       @hideList()
-    , 500
+    , 200
 
   onItemClick: (doc, e) => @processSelection(doc, @rules[@matched])
 
